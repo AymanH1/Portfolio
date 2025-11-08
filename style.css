@@ -213,7 +213,6 @@ a:hover::after{
     line-height: 1.4;
 }
 
-/* SOCIALS SECTION */
 .socials-section {
     padding: 60px 20px;
     background: #2c2d31;
@@ -243,11 +242,11 @@ a:hover::after{
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
+.socials-section a::after {
+    content: none !important;
+}
 
 
-
-
-/* RESPONSIVE */
 @media (max-width: 1000px) {
     .projects {
         max-width: 640px; 
