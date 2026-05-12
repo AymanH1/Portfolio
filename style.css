@@ -118,7 +118,16 @@ a:hover::after{
     color: #b5b5b5;
     max-width: 600px;
     line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.title2 {
     margin-bottom: 20px;
+}
+
+.title1, .title2 {
+    font-weight: 100;
+    color: #d3cece;
 }
 
 .bio {
